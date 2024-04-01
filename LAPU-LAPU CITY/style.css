@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(75, 74, 74, 0.7), rgba(8, 8, 8, 0.7)), url(images/Background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: rgb(242, 242, 243);
+    background-color: #e0588d;
+    color:rgb(246, 250, 6);
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    font-size: 75px;
+    background: linear-gradient(10deg, white 20%, #fac107 20%, white 40%, white 40%, white 60%, #fac107 60%, white 80%, white 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+p {
+    color: #fff;
+    font-style: oblique;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fac107;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 25px;
+    background-position: center center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card0 {
+    background-image: url(images/lapu-lapu.jpg);
+}
+.card1 {
+    background-image: url(images/pic-1.jpg);
+}
+
+.card2 {
+    background-image: url(images/pic-2.jpg);
+}
+
+.card3 {
+    background-image: url(images/pic-3.jpg);
+}
+
+.card4 {
+    background-image: url(images/pic-4.jpg);
+}
+
+.card5 {
+    background-image: url(images/pic-5.png);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #070707;
+    text-shadow: 0 0 5px #fceb02;
+    font-size: larger;
+    text-align: center;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 10px;
+}
